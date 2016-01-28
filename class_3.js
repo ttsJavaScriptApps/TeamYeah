@@ -15,6 +15,7 @@ var playerTwo = {
   getHand: getHand
 };
 
+<<<<<<< HEAD
 var playerOneScore = 0
 var playerTwoScore = 0
 
@@ -59,5 +60,10 @@ playGame(playerOne, playerTwo, 5)
  }
 };
 
+
+};
+=======
+function playRound() {
+  console.log(playerOne.name, playerTwo)
 
 };
