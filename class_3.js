@@ -1,8 +1,8 @@
 
 var hands = ["rock", "paper", "scissors"];
   function getHand() {
-    var myIndex = parseInt(Math.random()*10)%3;
-    return hands[myIndex];
+
+    return hands[parseInt(Math.random()*10)%3];
   }
 
 var playerOne = {
@@ -11,7 +11,7 @@ var playerOne = {
   };
 
 var playerTwo = {
-  name: "minaj"
+  name: "minaj",
   getHand: getHand
 };
 
