@@ -3,7 +3,7 @@ var hands = ["rock", "paper", "scissors"];
   function getHand() {
     var myIndex = parseInt(Math.random()*10)%3;
     return hands[myIndex];
-  };
+  }
 
 var playerOne = {
     name: "mariah",
@@ -15,7 +15,6 @@ var playerTwo = {
   getHand: getHand
 };
 
-<<<<<<< HEAD
 var playerOneScore = 0
 var playerTwoScore = 0
 
@@ -62,7 +61,7 @@ playGame(playerOne, playerTwo, 5)
 
 
 };
-=======
+
 function playRound() {
   console.log(playerOne.name, playerTwo)
 
